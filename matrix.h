@@ -6,8 +6,9 @@
 #include <stdbool.h>
 #include "config.h"
 
+//определяем структуру матрицы
 typedef struct {
-    MatrixDataType **data;
+    Matrix_Data_Type **data;
     int rows;
     int cols;
 } Matrix;
@@ -20,7 +21,7 @@ void matrix_free(Matrix* matrix);
 bool matrix_load_from_file(Matrix* matrix, const char* filename);
 void matrix_print(const Matrix* matrix);
 
-// Операции
+// Операции копирования, сложения, умножения, транспонирования матриц и нахождения детерминанта
 Matrix* matrix_copy(const Matrix* matrix);
 Matrix* matrix_add(const Matrix* matrix1, const Matrix* matrix2);
 Matrix* matrix_multiply(const Matrix* matrix1, const Matrix* matrix2);
