@@ -1,6 +1,6 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-typedef double MatrixDataType; // Тип данных элементов матрицы
+typedef double Matrix_Data_Type; // Тип данных элементов матрицы
 
 #endif
