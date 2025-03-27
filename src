@@ -1,0 +1,24 @@
+matrix_project/
+├── src/
+│   ├── matrix/
+│   │   ├── matrix.c
+│   │   └── matrix.h
+│   ├── output/
+│   │   ├── output.c
+│   │   └── output.h
+│   └── main.c
+├── include/
+│   └── config.h
+├── tests/
+│   ├── tests_matrix.c
+│   ├── tests_output.c
+│   └── test_runner.c
+├── docs/
+├── build/
+├── Makefile
+├── README.md
+├── .gitignore
+├── .clang-format
+└── .github/
+    └── workflows/
+        └── ci.yml  # Файл для GitHub Actions CI
