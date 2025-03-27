@@ -3,6 +3,7 @@
 
 #include "matrix.h"
 
-void output_matrix_to_file(const Matrix* matrix, const char* filename);
+//функция вывода матрицы из файла
+void output_matrix_to_file(const Matrix* matrix, const char* file_name);
 
 #endif
